@@ -1,0 +1,54 @@
+{
+  "name": "react-from-scratch",
+  "version": "1.0.0",
+  "description": "A react boilerplate from scratch built with webpack and babel.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --content-base --hot --inline",
+    "format": "prettier --write \"src/**/*.js\"",
+    "eslint-fix": "eslint --fix \"src/**/*.js\"",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/godmode97/react-from-scratch.git"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "webpack",
+    "babel"
+  ],
+  "author": "Neil Monzales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/godmode97/react-from-scratch/issues"
+  },
+  "homepage": "https://github.com/godmode97/react-from-scratch#readme",
+  "dependencies": {
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.5.1",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-loader": "^3.0.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.15.1",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "prettier": "1.18.2",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.1"
+  }
+}
