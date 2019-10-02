@@ -4,6 +4,6 @@
 
 # TODO
 
-[x] Fix eslint `import` rant.
+- [ ] Fix eslint `import` rant.
 
 MIT © [Nei Monzales](https://github.com/godmode97)
