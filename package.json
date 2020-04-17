@@ -28,7 +28,7 @@
   "homepage": "https://github.com/godmode97/react-from-scratch#readme",
   "dependencies": {
     "react": "^16.13.1",
-    "react-dom": "^16.13.0"
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
